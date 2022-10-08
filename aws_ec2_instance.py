@@ -48,6 +48,7 @@ def reboot_ec2_instance():
     except Exception as e:
         print(e)
 
+#start of EC2 instances
 def start_ec2_instance(instanceids):
     try:
         print("Start EC2 Instances")
@@ -63,6 +64,7 @@ def start_ec2_instance(instanceids):
     except Exception as e:
         print(e)
 
+#Stop of EC2 instances
 def stop_ec2_instance():
     try:
         print("Stop EC2 Instances")
